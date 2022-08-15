@@ -8,4 +8,5 @@ const greatWhiteShark = {
     mySpecies: 'Charcharias'
 }
 
-console.log(greatWhiteShark);
+console.log("Object Calling: " + greatWhiteShark.myClass + " | " + " Char Length: " + greatWhiteShark.myClass.length);
+
