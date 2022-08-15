@@ -4,10 +4,15 @@ const greatWhiteShark = {
     myPhylum: 'Chordata',
     myClass: 'Chondrichthyes',
     myOrder: 'Lamniformes',
-    myFamily: 'Charcharodon',
-    mySpecies: 'Charcharias'
+    myFamily: 'Lamnidae',
+    myGenus: 'Charcharodon',
+    mySpecies: 'Charcharias',
+    getScientificName: function () {
+        scientificName = this.myGenus + ' ' + this.mySpecies;
+        return (scientificName);
+    }
 }
-
+console.log(greatWhiteShark.getScientificName());
 //console.log("Object Calling: " + greatWhiteShark.myClass + " | " + " Char Length: " + greatWhiteShark.myClass.length);
 
 greatWhiteShark.objStatus = 'Start';
