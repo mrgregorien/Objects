@@ -10,3 +10,8 @@ const greatWhiteShark = {
 
 console.log("Object Calling: " + greatWhiteShark.myClass + " | " + " Char Length: " + greatWhiteShark.myClass.length);
 
+greatWhiteShark.objStatus = 'Start';
+console.log(greatWhiteShark);
+
+greatWhiteShark.objStatus = 'Updating';
+console.log(greatWhiteShark);
